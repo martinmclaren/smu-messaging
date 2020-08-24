@@ -1,0 +1,132 @@
+.communicationMain {
+  position: absolute;
+  top: 64px;
+  bottom: 0;
+  left: 30%;
+  width: 70%;
+}
+
+.communicationHeader {
+  background-color: #ffe6e6;
+  z-index: 1;
+  text-align: center;
+}
+
+.communicationFrom {
+  margin: 0 auto;
+}
+
+.communicationBottom {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffe6e6;
+  z-index: 1;
+}
+
+.pictureOnlyInactive {
+  color: gray;
+  position: absolute;
+  right: 10px;
+}
+
+.pictureOnlyActive {
+  position: absolute;
+  right: 10px;
+}
+
+.communicationContent {
+  position: absolute;
+  top: 54px;
+  bottom: 83.6px;
+  width: 100%;
+  overflow: auto;
+  background-color: yellow;
+}
+
+.messageLeft {
+  float: left;
+  clear: both;
+  background-color: #ffe1d0;
+  border-radius: 20px;
+  margin: 20px 0 20px 10px;
+  width: fit-content;
+  max-width: 50%;
+  padding: 10px 20px 10px 20px;
+}
+
+.messageRight {
+  float: right;
+  clear: both;
+  background-color: #ffa28a;
+  border-radius: 20px;
+  margin: 20px 10px 20px 0;
+  width: fit-content;
+  max-width: 50%;
+  padding: 10px 20px 10px 20px;
+}
+
+.image {
+  max-width: 100%;
+}
+
+.time {
+  color: #005eff;
+  font-size: 20px;
+}
+
+span {
+  word-wrap : break-word ;
+}
+
+.textInput {
+  display: inline-block;
+  flex: 2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.textInput input{
+  font-size: 36px;
+  height: fit-content;
+}
+
+.sendButton {
+  display: inline-block;
+  margin: 13px 10px 12px 10px;
+}
+
+.sendButton button {
+  font-size: 36px;
+  height: fit-content;
+  background-color: #ff934a;
+  border-color: #ff934a;
+}
+
+.sendButton button:hover {
+  background-color: #ffbc8f;
+  border-color: #ffbc8f;
+}
+
+.sendImage {
+  margin-top: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 36px !important;
+  height: fit-content !important;
+}
+
+.sendForm {
+  display: flex;
+  flex: 2;
+}
+
+.modal :global(.ant-modal-content) {
+  margin: 0 35px;
+}
+
+.zoomedImage {
+  max-width: 100%;
+  margin: 0 auto;
+}
